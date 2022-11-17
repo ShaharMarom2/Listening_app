@@ -1,6 +1,6 @@
-const SearchBar = () => {
+const SearchBar = ({ handleSearch }) => {
     return(
-        <input type="text" />
+        <input onInput={handleSearch} type="text" />
     )
 }
 
